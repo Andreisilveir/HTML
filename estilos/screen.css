@@ -1,90 +1,16 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 * {
 
     margin: 0px;
     padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
 html, body {
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-}
-
-body {
-
-    width: 100vw;
     height: 100vh;
-
-}
-
-#titulo {
-
-    font-family: 'Raleway';
-    font-weight: normal;
-    font-size: 200%;
-    color: rgb(144, 7, 144);
-    padding-top: 4vh;
-    padding-left: 15px;
-    
-}
-
-#ipesquisa {
-
-    
-}
-
-header {
-
-    background-color: black;
     width: 100vw;
-    height: 14vh;
-    
-
-}
-
-#parte1 {
-
-    background-color: #B2E1D9;
-    height: 80vh;
-
-}
-
-#tema {
-
-    padding: 20px 0px 0px 20px;
-    color: #4A4E69;
-
-}
-
-#conteudo {
-
-    color: #BDA523;
-    line-height: 25px;
-    padding-top: 10px;
-}
-
-#parte2 {
-
-    background-color: black;
-    height: 20vh;
-
-}
-
-#parte3 {
-
-    background-color: white;
-    height: 20vh;
-
-}
-
-#parte4 {
-
-    background-color: black;
-    height: 20vh;
 
 }

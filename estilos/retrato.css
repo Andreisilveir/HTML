@@ -1,2 +1,109 @@
 @charset "UTF-8";
 
+* {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+html, body {
+
+    height: 100vh;
+    width: 100vw;
+
+}
+
+header {
+
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+
+}
+
+.titulo {
+
+    font-size: 35px;
+    display: flex;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    padding-bottom: 10px;
+    width: 150px;
+    height: 30px;
+
+}
+
+#marca {
+
+    text-decoration: none;
+    color: purple;
+
+}
+
+#marca:hover {
+
+    color: rgb(186, 6, 186);
+
+}
+
+menu {
+
+    width: 40px;
+    height: 40px;
+
+}
+
+#menuu {
+
+    width: 33px;
+    height: 28px;
+    display: flex;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    text-decoration: none; 
+
+}
+
+#menu {
+
+    width: 33px;
+    height: 28px; 
+
+}
+
+#menuu:hover {
+
+    transform: translate(2px, -2px);
+
+}
+
+#login {
+
+    width: 43px;
+    height: 37px;
+    border-radius: 50% 50% 50% 50%;
+    display: flex;
+    position: absolute;
+    right: 35px;
+    top: 17px;
+    text-decoration: none;
+    
+}
+
+#ilogin {
+
+    width: 44px;
+    height: 38px;
+
+}
+
+#ilogin:hover {
+
+    transform: translate(-5px, -5px);
+    
+}
