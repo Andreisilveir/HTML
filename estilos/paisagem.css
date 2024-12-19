@@ -110,18 +110,6 @@ section {
 
 }
 
-#formulario {
-
-    margin-top: 20px;
-    width: 500px;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 3px solid black ;
-
-}
-
 #ts {
 
     padding-top: 15px;
