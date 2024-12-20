@@ -85,14 +85,19 @@
 
         <form action="cadastro.py" method="post">
 
-            <fieldset>Suporte</fieldset>
+            <fieldset>
 
-            <p>
+                <legend>Suporte</legend>
 
-                <label for="inome">Nome</label>
+                <br>
+                
+                <p>
 
-                <input type="text" name="nome" id="Inome">
-            </p>
+                    <label for="inome">Nome: </label>
+    
+                    <input type="text" name="nome" id="Inome" required maxlength="30" placeholder="Nome completo">
+                </p>
+            </fieldset>
 
         </form>
     
